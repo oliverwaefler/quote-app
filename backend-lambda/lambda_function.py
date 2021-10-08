@@ -3,7 +3,7 @@ import boto3
 from random import randrange
 
 #Establish connection with quotation database
-dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+dynamodb = boto3.resource('dynamodb', region_name='eu-central-1')
 
 
 def lambda_handler(event, context):
